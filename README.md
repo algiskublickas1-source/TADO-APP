@@ -1,22 +1,21 @@
-# 📝 TADO-APP – Užduočių Valdymo Sistema (Python CRUD + JSON)
+# 📝 TADO-APP — paprasta užduočių valdymo sistema
 
-TADO-APP yra paprasta, bet funkcionali užduočių valdymo sistema (TODO APP), parašyta Python kalba.
+TADO-APP yra komandinės eilutės aplikacija, skirta mokytis Python, OOP, failų saugojimo ir CRUD logikos.
 
-Programa leidžia:
+## 🔧 Funkcijos
+- Pridėti užduotį  
+- Rodyti visas užduotis  
+- Rodyti atliktas / neatliktas užduotis  
+- Pažymėti užduotį kaip atliktą  
+- Redaguoti užduotį  
+- Ištrinti užduotį  
+- Automatiškai saugoti duomenis JSON faile  
 
-✔ Kurti užduotis  
-✔ Rodyti užduočių sąrašą  
-✔ Pažymėti atliktas užduotis  
-✔ Ištrinti užduotis  
-✔ Išsaugoti duomenis JSON faile  
-✔ Automatiškai įkelti duomenis paleidžiant programą  
+## 🛠 Naudojimas
+Paleisti:
 
-## 📌 Projekto failai
-
-- `task.py` — užduoties klasė  
-- `task_manager.py` — užduočių valdymo logika + JSON  
-- `main.py` — vartotojo meniu  
-- `tasks.json` — automatiškai sukuriamas duomenų failas  
+```bash
+py main.py
 
 ## 🚀 Paleidimas
 

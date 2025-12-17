@@ -5,8 +5,8 @@ class Task:
         self.atlikta = False
 
     def info(self):
-        statusas = "✓ atlikta" if self.atlikta else "✗ neatlikta"
-        print(f"{self.pavadinimas} - {self.aprasymas} | {statusas}")
+        status = "✓" if self.atlikta else "✗"
+        print(f"{self.pavadinimas} – {self.aprasymas} | Atlikta: {status}")
 
     def to_dict(self):
         return {
@@ -20,3 +20,4 @@ class Task:
         task = Task(data["pavadinimas"], data["aprasymas"])
         task.atlikta = data["atlikta"]
         return task
+
